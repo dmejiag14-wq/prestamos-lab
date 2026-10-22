@@ -1,0 +1,189 @@
+
+.filtros {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.filtros div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 220px;
+}
+
+.filtros label {
+  font-weight: bold;
+}
+
+.filtros input,
+.filtros select {
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background: white;
+  font-size: 15px;
+}
+
+
+.formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.formulario input,
+.formulario select {
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  color: #1e293b;
+  background: white;
+  font-size: 15px;
+}
+
+.formulario button {
+  margin-top: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+
+/* Corrección general de colores */
+.app {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.contenido {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.encabezado {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.encabezado h1,
+.encabezado p {
+  color: #ffffff;
+}
+
+/* Tarjetas de equipos */
+.tarjeta {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+.tarjeta h3,
+.tarjeta p {
+  color: #1e293b;
+}
+
+/* Campos de filtros y formulario */
+.filtros input,
+.filtros select,
+.formulario input,
+.formulario select {
+  color: #1e293b !important;
+  background-color: #ffffff !important;
+}
+
+.filtros select option {
+  color: #1e293b;
+  background-color: #ffffff;
+}
+
+/* Textos del formulario */
+.formulario {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+.formulario h2,
+.formulario label {
+  color: #1e293b;
+}
+
+.formulario input::placeholder,
+.filtros input::placeholder {
+  color: #64748b;
+}
+
+.tabla-prestamos {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  color: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla-prestamos h2 {
+  color: #1e3a8a;
+}
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+.tabla-prestamos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-prestamos th,
+.tabla-prestamos td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tabla-prestamos th {
+  background: #e2e8f0;
+}
+
+.fila-vencida {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.tabla-prestamos button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #1e3a8a;
+  color: white;
+  cursor: pointer;
+}

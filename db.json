@@ -1,0 +1,82 @@
+{
+  "equipos": [
+    {
+      "id": "1",
+      "nombre": "Laptop Lenovo",
+      "categoria": "Laptop",
+      "disponible": true
+    },
+    {
+      "id": "2",
+      "nombre": "Laptop HP",
+      "categoria": "Laptop",
+      "disponible": true
+    },
+    {
+      "id": "3",
+      "nombre": "Proyector Epson",
+      "categoria": "Proyector",
+      "disponible": true
+    },
+    {
+      "id": "4",
+      "nombre": "Proyector BenQ",
+      "categoria": "Proyector",
+      "disponible": false
+    },
+    {
+      "id": "5",
+      "nombre": "Router Cisco",
+      "categoria": "Router",
+      "disponible": false
+    },
+    {
+      "id": "6",
+      "nombre": "Router TP-Link",
+      "categoria": "Router",
+      "disponible": false
+    },
+    {
+      "id": "7",
+      "nombre": "Laptop Dell",
+      "categoria": "Laptop",
+      "disponible": true
+    },
+    {
+      "id": "8",
+      "nombre": "Proyector ViewSonic",
+      "categoria": "Proyector",
+      "disponible": true
+    }
+  ],
+  "prestamos": [
+    {
+      "equipoId": 1,
+      "solicitante": "DANIEL ESAU MEJIA GARCIA",
+      "carne": "0902-23-15690",
+      "fechaPrestamo": "2026-10-22",
+      "fechaLimite": "2026-10-23",
+      "devuelto": true,
+      "id": "A_tjzoZ4-ao"
+    },
+    {
+      "equipoId": 3,
+      "solicitante": "DANIEL ESAU MEJIA GARCIA",
+      "carne": "0902-23-15690",
+      "fechaPrestamo": "2026-10-22",
+      "fechaLimite": "2026-10-23",
+      "devuelto": true,
+      "id": "qJJgLR0z10o"
+    },
+    {
+      "equipoId": 5,
+      "solicitante": "DANIEL ESAU MEJIA GARCIA",
+      "carne": "0902-23-15690",
+      "fechaPrestamo": "2026-10-22",
+      "fechaLimite": "2026-10-20",
+      "devuelto": false,
+      "id": "P2i7rAfMf0Y"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
